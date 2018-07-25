@@ -1,0 +1,75 @@
+.footer {
+    padding-top: 40px;
+    // Флекс, дуже багато єбатися, нехай буде так
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .footer__title {
+            margin-bottom: 40px;
+            .footer__title__midle {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .footer__title__midle--bold {
+                    text-transform: uppercase;
+                    color: #22B1FF;
+                     margin: 0;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                    font-size: 72px;
+                }
+                .footer__title__midle--light{
+                    margin: 0;
+                    color: #22B1FF;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                    padding: 25px;
+                }
+                .footer__title__down{
+                    font-size: 30px;
+                    font-weight: 100;
+                }
+            }
+        }
+        .footer__contacts {
+            display: flex;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 56px;
+            .footer__contacts--purple {
+                color: #A525F2;
+                padding: 0 2.1em;   
+            }
+            .footer__contacts--pink {
+                color: #FA47D0;
+            }
+        }
+        .footer__social {
+            .footer__social__twitter {
+                padding: 0 27px;
+            }
+        }
+        .footer__nav {
+            font-size: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            .footer__nav__item {
+                font-size: 16px;
+                text-transform: uppercase;
+                 .footer__nav__item__link {
+                     color: #FFF;
+                     text-decoration: none;
+                     transition: all .6s ease-in-out;
+                     &:hover {
+                         color: #000;
+                         transition: all .6s ease-in-out;
+                     }
+                 }
+            }
+        }
+    }
